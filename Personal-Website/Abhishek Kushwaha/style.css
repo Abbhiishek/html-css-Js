@@ -1,0 +1,100 @@
+/* *{
+   background-color: #EEE6CE;
+  margin: 0;
+  padding: 0;
+} */
+body {
+  background-color: #313552;
+}
+
+.landing-page {
+  background-color: black;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 20px;
+  padding: 50px 0 50px 0;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 8px;
+  color: #FFBED8;
+}
+
+h4, h3, h2 {
+  color: #EEE6CE;
+}
+
+a {
+  color: #FF7BA9;
+}
+
+p {
+  color: white;
+}
+
+hr {
+  border: #2EB086;
+  border-top: dotted;
+  /* height: 0; */
+  color: #2EB086;
+  width: 30%;
+}
+
+.about-me {
+  background-color: #203239;
+  padding: 5px 50px 5px 50px;
+  /* padding-left: 50px; */
+  border: 10px solid #203239;
+  border-radius: 50px;
+  margin: 60px 20px;
+}
+
+.about-me-content {
+  align-items: center;
+  text-align: center;
+}
+
+.connectmehere {
+  text-align: center;
+  background-color: #B4CFB0;
+  padding: 5px 50px 5px 50px;
+  /* padding-left: 50px; */
+  border: 10px solid #B4CFB0;
+  border-radius: 50px;
+  margin: 60px 20px;
+}
+
+.connectmehere h2 {
+  color: #8A39E1;
+}
+
+.socials {
+  display: inline-flex;
+  margin: 5px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+.github, .linkedin, .twitter, .instagram {
+  margin: 2px;
+  background-color: #6EBF8B;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  margin: 5px;
+  border: 5px solid #6EBF8B;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #8A39E1;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  border: 5px;
+  border-radius: 10px;
+}
